@@ -62,3 +62,16 @@ Thirdly, start to train your own network:
 ```
 accelerate training/main.py
 ```
+
+Additionally, generate emotional image:
+```
+python training/inference.py
+```
+You can modify config/config.yaml to change some details.
+
+Finally, training the understanding module:
+```
+python understanding.py
+```
+In order to accelerate the training, you can execuete:
+
